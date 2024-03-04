@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px) {
+  /* Adjust the style for screens with a maximum width of 768px */
+  body {
+    font-size: 18px;
+  }
+  .container {
+    width: 90%;
+  }
+  .div1, .div2, .div3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjust the style for screens with a maximum width of 480px */
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width: 100%;
+  }
+  .div1, .div2, .div3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* Adjust the style for screens with a maximum width of 320px */
+  body {
+    font-size: 14px;
+  }
+  .container {
+    width: 100%;
+  }
+  .div1, .div2, .div3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
